@@ -139,6 +139,12 @@ let totalOrders = business.orders.reduce(
     0
 ) */
 
+
+// Array to contain all the big spenders larger than 9,000
+const bigSpenders = businesses.filter(business => {
+
+})
+
 /*
 Lightning Exercise 1: Use the reduce method on the 
 following array to determine how much total rain 
